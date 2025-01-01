@@ -20,7 +20,8 @@
                     "repo": "https://github.com/PowerLoom/snapshotter-configs.git",
                     "branch": "eth_uniswapv2-lite_v2",
                     "commit": "a9413a4a24120ebc2265fabd7fc14bf529170fe4"
-                }
+                },
+                "sequencer": "/dns/proto-snapshot-listener.aws2.powerloom.io/tcp/9100/p2p/QmTK9e9QNEotPkjWAdZT5bbYKV7PEJVu7iXzdVn3VZDEk9"
             },
             {
                 "name": "AAVEV3",
@@ -36,7 +37,8 @@
                     "repo": "https://github.com/PowerLoom/snapshotter-configs.git",
                     "branch": "eth_aavev3_lite_v2",
                     "commit": "640d3ac7b6a97aa392f41e63b02ce6d0b7871f9f"
-                }
+                },
+                "sequencer": "/dns/proto-snapshot-listener.aws2.powerloom.io/tcp/9100/p2p/QmTK9e9QNEotPkjWAdZT5bbYKV7PEJVu7iXzdVn3VZDEk9"
             }
         ]
     }
