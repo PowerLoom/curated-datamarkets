@@ -9,7 +9,7 @@
             {
                 "name": "UNISWAPV2",
                 "sourceChain": "ETH-MAINNET",
-                "contractAddress": "0xF233c16EFBc595eF8a5B20DCC35beAF589650aF3",
+                "contractAddress": "0x8C3fDC3A281BbB8231c9c92712fE670eFA655e5f",
                 "powerloomProtocolStateContractAddress": "0x3B5A0FB70ef68B5dd677C7d614dFB89961f97401",
                 "compute": {
                     "repo": "https://github.com/PowerLoom/snapshotter-computes.git",
