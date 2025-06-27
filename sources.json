@@ -22,6 +22,23 @@
                     "commit": "a9413a4a24120ebc2265fabd7fc14bf529170fe4"
                 },
                 "sequencer": "/dns/devnet-proto-snapshot-listener.aws2.powerloom.io/tcp/9100/p2p/QmbWC2TKXDWnYB1picmYwAMRUz7ACXLXDWyLibjHnaRyoN"
+            },
+            {
+                "name": "AAVEV3",
+                "sourceChain": "ETH-MAINNET",
+                "contractAddress": "0x4229Ad271d8b11f2AdBDe77099752a534470876b",
+                "powerloomProtocolStateContractAddress": "0x3B5A0FB70ef68B5dd677C7d614dFB89961f97401",
+                "compute": {
+                    "repo": "https://github.com/PowerLoom/snapshotter-computes.git",
+                    "branch": "eth_aavev3_lite",
+                    "commit": "33f4ec85f787d72d39fa943ba32af5589a5292a8"
+                },
+                "config": {
+                    "repo": "https://github.com/PowerLoom/snapshotter-configs.git",
+                    "branch": "eth_aavev3_lite_v2",
+                    "commit": "53cc402719cfbe390f8ef657671b8f1adee2fcfe"
+                },
+                "sequencer": "/dns/devnet-proto-snapshot-listener.aws2.powerloom.io/tcp/9100/p2p/QmTK9e9QNEotPkjWAdZT5bbYKV7PEJVu7iXzdVn3VZDEk9"
             }
         ]
     },
