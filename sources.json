@@ -38,7 +38,7 @@
                     "branch": "eth_aavev3_lite_v2",
                     "commit": "53cc402719cfbe390f8ef657671b8f1adee2fcfe"
                 },
-                "sequencer": "/dns/devnet-proto-snapshot-listener.aws2.powerloom.io/tcp/9100/p2p/QmTK9e9QNEotPkjWAdZT5bbYKV7PEJVu7iXzdVn3VZDEk9"
+                "sequencer": "/dns/devnet-proto-snapshot-listener.aws2.powerloom.io/tcp/9100/p2p/QmbWC2TKXDWnYB1picmYwAMRUz7ACXLXDWyLibjHnaRyoN"
             }
         ]
     },
