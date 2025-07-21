@@ -1,16 +1,16 @@
 [
     {
         "powerloomChain": {
-            "name": "pre-mainnet",
-            "rpcURL": "https://rpc-prost1m.powerloom.io",
-            "chainId": 11169
+            "name": "devnet",
+            "rpcURL": "https://rpc-devnet.powerloom.dev",
+            "chainId": 11167
         },
         "dataMarkets": [
             {
                 "name": "UNISWAPV2",
                 "sourceChain": "ETH-MAINNET",
-                "contractAddress": "0x8023BD7A9e8386B10336E88294985e3Fbc6CF23F",
-                "powerloomProtocolStateContractAddress": "0xF68342970beF978697e1104223b2E1B6a1D7764d",
+                "contractAddress": "0x8C3fDC3A281BbB8231c9c92712fE670eFA655e5f",
+                "powerloomProtocolStateContractAddress": "0x3B5A0FB70ef68B5dd677C7d614dFB89961f97401",
                 "compute": {
                     "repo": "https://github.com/PowerLoom/snapshotter-computes.git",
                     "branch": "eth_uniswapv2_lite_v2",
@@ -19,26 +19,52 @@
                 "config": {
                     "repo": "https://github.com/PowerLoom/snapshotter-configs.git",
                     "branch": "eth_uniswapv2-lite_v2",
-                    "commit": "a9413a4a24120ebc2265fabd7fc14bf529170fe4"
+                    "commit": "9401adf78df686f61ba58779c4d4d44ed37d5184"
                 },
-                "sequencer": "/dns/proto-snapshot-listener.aws2.powerloom.io/tcp/9100/p2p/QmTK9e9QNEotPkjWAdZT5bbYKV7PEJVu7iXzdVn3VZDEk9"
+                "sequencer": "/dns/devnet-proto-snapshot-listener.aws2.powerloom.io/tcp/9100/p2p/QmbWC2TKXDWnYB1picmYwAMRUz7ACXLXDWyLibjHnaRyoN"
             },
             {
                 "name": "AAVEV3",
                 "sourceChain": "ETH-MAINNET",
-                "contractAddress": "0xc390a15BcEB89C2d4910b2d3C696BfD21B190F07",
-                "powerloomProtocolStateContractAddress": "0xF68342970beF978697e1104223b2E1B6a1D7764d",
+                "contractAddress": "0x4229Ad271d8b11f2AdBDe77099752a534470876b",
+                "powerloomProtocolStateContractAddress": "0x3B5A0FB70ef68B5dd677C7d614dFB89961f97401",
                 "compute": {
                     "repo": "https://github.com/PowerLoom/snapshotter-computes.git",
                     "branch": "eth_aavev3_lite",
-                    "commit": "bcb435176282df66dcf7c94077491e7596337487"
+                    "commit": "33f4ec85f787d72d39fa943ba32af5589a5292a8"
                 },
                 "config": {
                     "repo": "https://github.com/PowerLoom/snapshotter-configs.git",
                     "branch": "eth_aavev3_lite_v2",
-                    "commit": "640d3ac7b6a97aa392f41e63b02ce6d0b7871f9f"
+                    "commit": "53cc402719cfbe390f8ef657671b8f1adee2fcfe"
                 },
-                "sequencer": "/dns/proto-snapshot-listener.aws2.powerloom.io/tcp/9100/p2p/QmTK9e9QNEotPkjWAdZT5bbYKV7PEJVu7iXzdVn3VZDEk9"
+                "sequencer": "/dns/devnet-proto-snapshot-listener.aws2.powerloom.io/tcp/9100/p2p/QmbWC2TKXDWnYB1picmYwAMRUz7ACXLXDWyLibjHnaRyoN"
+            }
+        ]
+    },
+    {
+        "powerloomChain": {
+            "name": "mainnet",
+            "rpcURL": "https://rpc-v2.powerloom.network",
+            "chainId": 7869
+        },
+        "dataMarkets": [
+            {
+                "name": "UNISWAPV2",
+                "sourceChain": "ETH-MAINNET",
+                "contractAddress": "0x21cb57C1f2352ad215a463DD867b838749CD3b8f",
+                "powerloomProtocolStateContractAddress": "0x000AA7d3a6a2556496f363B59e56D9aA1881548F",
+                "compute": {
+                    "repo": "https://github.com/PowerLoom/snapshotter-computes.git",
+                    "branch": "eth_uniswapv2_lite_v2",
+                    "commit": "ebb5bbf66122de45fae10c9ef908102e010a8b24"
+                },
+                "config": {
+                    "repo": "https://github.com/PowerLoom/snapshotter-configs.git",
+                    "branch": "eth_uniswapv2-lite_v2",
+                    "commit": "9401adf78df686f61ba58779c4d4d44ed37d5184"
+                },
+                "sequencer": "/dns/mainnet-proto-snapshot-listener.aws2.powerloom.io/tcp/9100/p2p/QmTK9e9QNEotPkjWAdZT5bbYKV7PEJVu7iXzdVn3VZDEk9"
             }
         ]
     }
